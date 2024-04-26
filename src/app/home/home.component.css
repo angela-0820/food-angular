@@ -1,0 +1,85 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+li a{
+    height: 100%; /* 20 * 16px= 320px, 20x madhesia e browser qe eshte 16px*/
+    width: 25rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #f0e6e6;
+}
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.content{
+padding: 0.5rem 1rem;
+position: relative;
+backdrop-filter: blur(3px);
+}
+.favorite{
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    
+}
+.favorite{
+    color: rgb(235, 11, 11);
+}
+
+.favorite.not-favorite{
+   color: rgb(136, 130, 130);
+}
+.stars{
+    margin-bottom: 0.2rem;
+}
+.product-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.origins{
+    flex: 9;
+
+}
+.origins span{
+    border-radius: 2rem;
+    display:inline-block;
+    font-size: .7rem;
+    color: #f0e6e6;
+    margin-right: 0.3rem;
+    
+}
+.cookTime{
+    font-size: 0.8rem;
+    flex: 3rem;
+    text-align: right;
+}
+.price{
+    color:  #f0e6e6;
+    margin-top: 0.7rem;
+
+}
+  
+.ingredients{
+color: #dfdcda;
+text-align: right;
+flex: 9
+}
+.ingredients span{
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+    display: inline-block;
+}
+
+    

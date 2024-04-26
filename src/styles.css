@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet');
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    
+}
+body{
+    margin:0;
+    font-family:"Roboto","sans-serif";
+    font-size: 18px;
+    background-image: url(../src/assets/images/blurry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+
+   
+}
+a{
+    text-decoration: none;
+}

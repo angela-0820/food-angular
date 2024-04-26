@@ -1,0 +1,23 @@
+div{
+    padding-left: 2rem;
+}
+div p{
+    font-size: 3rem;
+    color: rgb(255, 254, 253);
+}
+div a{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+div a:active{
+    color: rgb(255, 254, 253);
+}
+div a:active{
+    color: rgb(255, 254, 253);
+}
+div a:hover{
+    color: rgb(255, 254, 253);
+}
+div a:visited{
+    color: rgb(255, 254, 253);
+}
